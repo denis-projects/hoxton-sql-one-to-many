@@ -22,6 +22,7 @@ const createWork = db.prepare(`
 INSERT INTO works (name, picture, workId) VALUES (?, ?, ?);
 `)
 
+
 const getAllMuseums = db.prepare(`
 SELECT * FROM museums;
 `)
